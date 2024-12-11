@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    /* background-image: url("pexels-jack-atkinson-1289771108-24405903.jpg"); */
+
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 15px;
+    font-weight: 100;
+}
+#nav i{
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    padding: 40px 80px;
+    /* background-color: gold; */
+}
+#center h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 100;
+}
+#center-in{
+    height:150px;
+    width: 100%;
+    margin-top: 30px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+#right{
+    width: 20%;
+    /* background-color: blue; */
+}
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 18px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+#bottom{
+    height: 27.8%;
+    width: 100%;
+    background-image: url("pexels-matvalina-26017979.jpg");
+    background-size: cover;
+    background-position: 35% 44%;
+}
